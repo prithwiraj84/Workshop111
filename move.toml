@@ -1,0 +1,15 @@
+[package]
+name = "DAO"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0x877ff0b312e944f0def104b4dd2210fa9f374706551ccd4ff4b69ed623a145b1'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
